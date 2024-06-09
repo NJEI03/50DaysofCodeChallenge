@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+/* Container style */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    color: #999;
+}
+.line{
+    width: 120px;
+    background-color: rgb(16, 46, 27);
+    height: 5px;
+    margin-top: -16px;
+}
