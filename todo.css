@@ -15,8 +15,90 @@ h1{
     color: #999;
 }
 .line{
-    width: 120px;
+    width: 150px;
     background-color: rgb(16, 46, 27);
     height: 5px;
     margin-top: -16px;
+}
+.todo_app{
+    height: 400px;
+    width: 350px;
+    background-color: #292727;
+    margin-top: 3rem;
+    box-shadow: 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.personal_info img{
+    border-radius: 50%;
+    width: 40px;
+    padding: 12px;
+  
+}
+.personal_info .content{
+    display: flex;
+    flex-direction: column;
+    color: #999;
+}
+.personal_info .content h3{
+    margin-top: -10px;
+}
+.TODOS{
+    /* background-color: rgb(95, 125, 95); */
+    height: 300px;
+    width: 340px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+.item_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border: 1px solid #0f3;
+    margin: 12px;
+}
+.item{
+    color: #999;
+    font-size: 17px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.plus{
+    background-color: greenyellow;
+    color: white;
+    padding: 1px;
+    border-radius: 50%;
+}
+.delete{
+    background-color: rgb(213, 225, 195);
+    color: white;
+    padding: 1px;
+    border-radius: 50%;
+}
+.input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222;
+    margin: 23px;
+    padding: 10px;
+    gap: 10px;
+}
+input{
+    border: none;
+    outline: none;
+     background-color: #222;
+     color: #999;
+     width: 100%;
 }
